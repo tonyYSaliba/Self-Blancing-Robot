@@ -3,6 +3,12 @@
 ### Intro
 Remote controlled self balancing robot.
 
+### Media
+
+Check the MEDIA folder for more videos.
+
+![alt text](https://github.com/tonyYSaliba/balancingRobot2018/blob/master/MEDIA/WhatsApp%20Image%202018-12-21%20at%202.58.01%20AM.jpeg)
+
 
 ### Details
 
