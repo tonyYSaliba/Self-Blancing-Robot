@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tonySaliba.remoteControl.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <TextView
+                android:text="IP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_weight="7.01"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="172.20.10.2"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:weightSum="1">
+
+            <TextView
+                android:text="PORT"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:textSize="18sp"
+                android:layout_weight="0.77" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:text="80"
+                android:layout_weight="0.71" />
+
+        </LinearLayout>
+
+        <Button
+            android:text="CONNECT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/connect"
+            android:layout_weight="0.07" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+
+        <Button
+            android:text="^"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/forward"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="36sp"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/left"
+                android:layout_weight="1"
+                android:textSize="36sp"
+                android:textStyle="normal|bold"
+                android:textAllCaps="false" />
+
+            <Button
+                android:text="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/right"
+                android:layout_weight="1"
+                android:textSize="36sp"
+                android:textAllCaps="false"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:text="⬇"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/backward"
+            android:textSize="36sp"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false" />
+
+        <Button
+            android:text="STOP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/STOP"
+            android:textSize="36sp"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</RelativeLayout>
