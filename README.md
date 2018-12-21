@@ -2,16 +2,12 @@
 
 ### Intro
 Remote controlled self balancing robot.
-
 ### Media
-
 Check the MEDIA folder for more videos.
 
 ![alt text](https://github.com/tonyYSaliba/balancingRobot2018/blob/master/MEDIA/WhatsApp%20Image%202018-12-21%20at%202.58.01%20AM.jpeg)
 
-
 ### Details
-
 the remote control is an android application built using Android studio.
 
 There is a server on the ESP8266.
@@ -38,10 +34,17 @@ The ESP8266 receives a string from the android application (via the sockets). It
 
 And then the ESP sends byte data to the arduino via TX, and the arduino reads those data via RX.
 
-### Connections
-We are using a 12v battery for the motors, and a 9v battery for the rest.
+### Instructions
+The android mobile application is in the RemoteControl folder.
 
-There is a 9V to 5V voltage transformer connected to the battery (INPUT), and its output is connected to the arduino, the gyro, the ESP and the stepper controllers.
+The arduino uno code is in the Balancing_robot folder.
+
+The Node Mcu (ESP8266) code is in the ESP_server folder.
+
+### Connections
+We are using a 12v battery for the stepper controllers (Motor side), and a 9v battery for the rest of the components.
+
+There is a 9V to 5V voltage transformer connected to the 9V battery as INPUT, and its OUTPUT is connected to the arduino, the gyro, the ESP and the stepper controllers (Logic side).
 
 The GYRO is connected to the arduino by I2C bus.
 
