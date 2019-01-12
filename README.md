@@ -2,6 +2,11 @@
 
 ### Intro
 Remote controlled self balancing robot.
+
+
+
+PS: the README file is going to be updated soon and going to include more details and more photos. 
+
 ### Media
 Check the MEDIA folder for more videos.
 
