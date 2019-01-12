@@ -8,7 +8,8 @@ Remote controlled self balancing robot.
 PS: the README file is going to be updated soon and going to include more details and more photos. 
 
 ### Media
-Check the MEDIA folder for more videos.
+youtube link, video 1: https://youtu.be/xCSxdwbZF8M
+youtube link, video 2: https://youtu.be/HZiSrUaagcw
 
 ![alt text](https://github.com/tonyYSaliba/balancingRobot2018/blob/master/MEDIA/WhatsApp%20Image%202018-12-21%20at%202.58.01%20AM.jpeg)
 
