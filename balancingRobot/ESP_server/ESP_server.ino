@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266mDNS.h>
 #include <WiFiClient.h>
-const char* ssid = "TeteTheRobot";          // Your own wifi SSID (the one you want the esp8266 to connect), mine is called TeteTheRobot
-const char* password = "tsaliba007";        // Your own wifi password (the one you want the esp8266 to connect), mine is called tsaliba007
+const char* ssid = "#####";          // Your own wifi SSID (the one you want the esp8266 to connect), mine is called TeteTheRobot
+const char* password = "####";        // Your own wifi password (the one you want the esp8266 to connect), mine is called tsaliba007
 byte send_byte =B00000000;                  // The stop byte
 char c;
 // TCP server at port 80 will respond to HTTP requests
